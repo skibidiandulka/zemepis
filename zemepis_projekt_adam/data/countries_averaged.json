@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Austrálie",
+    "lat": -21,
+    "lon": -55
+  },
+  {
+    "name": "Brazílie",
+    "lat": -4.5,
+    "lon": 121
+  },
+  {
+    "name": "Alžír",
+    "lat": 30,
+    "lon": -180
+  },
+  {
+    "name": "Libye",
+    "lat": 30,
+    "lon": -165
+  },
+  {
+    "name": "Indie",
+    "lat": 27.5,
+    "lon": -109
+  },
+  {
+    "name": "Čína",
+    "lat": 37.5,
+    "lon": -89.5
+  },
+  {
+    "name": "USA",
+    "lat": 44,
+    "lon": 75.5
+  },
+  {
+    "name": "Kanada",
+    "lat": 61,
+    "lon": 73.5
+  },
+  {
+    "name": "Rusko",
+    "lat": 65,
+    "lon": -92.5
+  },
+  {
+    "name": "Grónsko",
+    "lat": 75,
+    "lon": 135
+  },
+  {
+    "name": "Mexiko",
+    "lat": 25,
+    "lon": 100
+  },
+  {
+    "name": "Argentina",
+    "lat": -35,
+    "lon": 150
+  },
+  {
+    "name": "Velká Británie",
+    "lat": 59,
+    "lon": 172.5
+  },
+  {
+    "name": "Francie",
+    "lat": 50.5,
+    "lon": 178.5
+  },
+  {
+    "name": "Německo",
+    "lat": 55,
+    "lon": 186
+  },
+  {
+    "name": "Itálie",
+    "lat": 47.5,
+    "lon": 187
+  },
+  {
+    "name": "Španělsko",
+    "lat": 44,
+    "lon": 171.5
+  },
+  {
+    "name": "Polsko",
+    "lat": 56,
+    "lon": 194
+  },
+  {
+    "name": "Ukrajina",
+    "lat": 53.5,
+    "lon": 207
+  },
+  {
+    "name": "Turecko",
+    "lat": 39,
+    "lon": -145
+  },
+  {
+    "name": "Japonsko",
+    "lat": 41.5,
+    "lon": -49.5
+  },
+  {
+    "name": "Jižní Korea",
+    "lat": 37,
+    "lon": -58
+  },
+  {
+    "name": "Egypt",
+    "lat": 27,
+    "lon": -150
+  },
+  {
+    "name": "Jižní Afrika",
+    "lat": -30,
+    "lon": -155
+  },
+  {
+    "name": "Nigérie",
+    "lat": 10,
+    "lon": 175
+  },
+  {
+    "name": "Keňa",
+    "lat": 0,
+    "lon": -145
+  },
+  {
+    "name": "Saúdská Arábie",
+    "lat": 24,
+    "lon": -135
+  },
+  {
+    "name": "Írán",
+    "lat": 32,
+    "lon": -125
+  },
+  {
+    "name": "Pákistán",
+    "lat": 30,
+    "lon": -115
+  },
+  {
+    "name": "Indonésie",
+    "lat": -5,
+    "lon": -80
+  },
+  {
+    "name": "Thajsko",
+    "lat": 15,
+    "lon": -95
+  },
+  {
+    "name": "Vietnam",
+    "lat": 16,
+    "lon": -88
+  },
+  {
+    "name": "Filipíny",
+    "lat": 13,
+    "lon": -75
+  },
+  {
+    "name": "Nový Zéland",
+    "lat": -42,
+    "lon": -10
+  },
+  {
+    "name": "Švédsko",
+    "lat": 62,
+    "lon": -165
+  },
+  {
+    "name": "Norsko",
+    "lat": 65,
+    "lon": -170
+  },
+  {
+    "name": "Finsko",
+    "lat": 64,
+    "lon": -155
+  },
+  {
+    "name": "Česká republika",
+    "lat": 50,
+    "lon": -165
+  },
+  {
+    "name": "Slovensko",
+    "lat": 49,
+    "lon": -160
+  },
+  {
+    "name": "Rakousko",
+    "lat": 47,
+    "lon": -166
+  },
+  {
+    "name": "Švýcarsko",
+    "lat": 47,
+    "lon": -172
+  },
+  {
+    "name": "Chile",
+    "lat": -35,
+    "lon": 130
+  },
+  {
+    "name": "Peru",
+    "lat": -10,
+    "lon": 140
+  },
+  {
+    "name": "Kolumbie",
+    "lat": 5,
+    "lon": 140
+  },
+  {
+    "name": "Venezuela",
+    "lat": 8,
+    "lon": 150
+  }
+]

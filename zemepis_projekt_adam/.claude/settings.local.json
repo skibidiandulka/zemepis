@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo pip3 install:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(sudo rm:*)",
+      "Read(//var/www/zemepis/**)",
+      "Bash(sudo systemctl restart:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

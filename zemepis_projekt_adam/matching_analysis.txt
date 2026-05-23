@@ -1,0 +1,134 @@
+================================================================================
+CENTROID MATCHING ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS:
+- Total countries processed: 45 (not 47 as mentioned - the original file has 45)
+- Total available centroids: 242
+- Average distance between old and new positions: 19.69 degrees
+- Maximum distance: 49.42 degrees (Keňa)
+- Minimum distance: 0.90 degrees (Vietnam)
+
+================================================================================
+MATCHING QUALITY CATEGORIES
+================================================================================
+
+EXCELLENT MATCHES (distance < 5 degrees):
+----------------------------------------
+1. Vietnam: 0.90 degrees
+   Old: (16.00, -88.00) → New: (16.59, -87.32)
+   Centroid ID: 122
+
+2. Mexiko: 2.52 degrees
+   Old: (25.00, 100.00) → New: (23.12, 101.68)
+   Centroid ID: 200
+
+3. Indonésie: 3.19 degrees
+   Old: (-5.00, -80.00) → New: (-6.11, -77.01)
+   Centroid ID: 25
+
+4. Thajsko: 4.65 degrees
+   Old: (15.00, -95.00) → New: (17.49, -91.08)
+   Centroid ID: 240
+
+GOOD MATCHES (5-10 degrees):
+----------------------------
+5. Filipíny: 5.66 degrees
+6. Finsko: 6.42 degrees
+7. Indie: 6.46 degrees
+8. Brazílie: 6.81 degrees
+9. Grónsko: 7.20 degrees
+10. USA: 7.43 degrees
+11. Kolumbie: 7.47 degrees
+12. Peru: 7.79 degrees
+13. Čína: 8.55 degrees
+14. Chile: 8.94 degrees
+
+MODERATE MATCHES (10-20 degrees):
+---------------------------------
+15. Rusko: 10.84 degrees
+16. Pákistán: 10.90 degrees
+17. Austrálie: 11.52 degrees
+18. Kanada: 11.81 degrees
+19. Argentina: 12.81 degrees
+20. Venezuela: 13.44 degrees
+21. Švédsko: 14.20 degrees
+22. Jižní Korea: 16.76 degrees
+23. Norsko: 17.38 degrees
+24. Ukrajina: 19.03 degrees
+25. Japonsko: 19.21 degrees
+26. Polsko: 19.37 degrees
+
+POOR MATCHES (> 20 degrees - REVIEW RECOMMENDED):
+-------------------------------------------------
+27. Írán: 21.09 degrees
+28. Slovensko: 22.22 degrees
+29. Česká republika: 23.30 degrees
+30. Turecko: 24.01 degrees
+31. Německo: 25.38 degrees
+32. Rakousko: 26.41 degrees
+33. Švýcarsko: 29.74 degrees
+34. Velká Británie: 30.62 degrees
+35. Itálie: 30.88 degrees
+36. Saúdská Arábie: 30.97 degrees
+37. Nový Zéland: 31.36 degrees
+38. Francie: 31.70 degrees
+39. Nigérie: 35.78 degrees
+40. Egypt: 36.06 degrees
+41. Španělsko: 37.10 degrees
+42. Libye: 41.86 degrees
+43. Alžír: 48.21 degrees
+44. Jižní Afrika: 48.90 degrees
+45. Keňa: 49.42 degrees
+
+================================================================================
+POTENTIAL ISSUES DETECTED
+================================================================================
+
+1. MULTIPLE COUNTRIES MATCHED TO SAME CENTROID:
+   - Centroid ID 13 (Alaska): Matched to 13 countries!
+     * Finsko, Švédsko, Norsko, Polsko, Slovensko, Česká republika,
+       Německo, Rakousko, Švýcarsko, Velká Británie, Itálie, Libye, Alžír
+   - Centroid ID 206 (Papua New Guinea): Matched to 3 countries
+     * Kolumbie, Peru, Venezuela
+   - Centroid ID 18 (Mexico): Matched to 4 countries
+     * Indie, Pákistán, Írán, Saúdská Arábie, Keňa
+
+   This suggests that the original manual positions in countries_averaged.json
+   may not accurately represent the actual geographic locations of these countries.
+
+2. CENTROIDS WITH VERY LARGE DISTANCES:
+   Countries with distances > 30 degrees likely need manual review:
+   - Keňa (49.42), Jižní Afrika (48.90), Alžír (48.21), Libye (41.86)
+   - Španělsko (37.10), Egypt (36.06), Nigérie (35.78)
+
+3. COORDINATE SYSTEM CONCERNS:
+   The old positions appear to use a non-standard coordinate system where
+   many longitudes are negative where they should be positive (or vice versa).
+   This explains the large distances for many European and African countries.
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. VERIFY COORDINATE SYSTEM:
+   The original countries_averaged.json appears to use a custom coordinate
+   system that doesn't match standard lat/lon. Verify the projection used.
+
+2. MANUAL REVIEW NEEDED FOR:
+   - All countries with distance > 30 degrees
+   - European countries (most matched to Alaska centroid ID 13)
+   - African countries with high distances
+
+3. CONSIDER RE-MAPPING:
+   Given the coordinate system mismatch, you may need to:
+   - Transform the old coordinates to match the new system, OR
+   - Manually verify the top 20 largest countries by area from the centroid data
+
+4. USE AREA AS ADDITIONAL VALIDATION:
+   Cross-reference the approximate_area field in centroids with known country areas
+   to improve matching accuracy beyond just distance.
+
+================================================================================
+END OF REPORT
+================================================================================

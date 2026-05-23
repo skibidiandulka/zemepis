@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Česká republika",
+        "population": "10.5 mil.",
+        "capital": "Praha",
+        "lat": 50,
+        "lon": 15
+    },
+    {
+        "name": "Německo",
+        "population": "83 mil.",
+        "capital": "Berlín",
+        "lat": 51,
+        "lon": 10
+    },
+    {
+        "name": "Francie",
+        "population": "67 mil.",
+        "capital": "Paříž",
+        "lat": 46,
+        "lon": 2
+    },
+    {
+        "name": "Spojené státy",
+        "population": "331 mil.",
+        "capital": "Washington D.C.",
+        "lat": 38,
+        "lon": -97
+    },
+    {
+        "name": "Japonsko",
+        "population": "126 mil.",
+        "capital": "Tokio",
+        "lat": 36,
+        "lon": 138
+    },
+    {
+        "name": "Brazílie",
+        "population": "212 mil.",
+        "capital": "Brasília",
+        "lat": -10,
+        "lon": -55
+    },
+    {
+        "name": "Austrálie",
+        "population": "25 mil.",
+        "capital": "Canberra",
+        "lat": -25,
+        "lon": 133
+    },
+    {
+        "name": "Indie",
+        "population": "1.38 mld.",
+        "capital": "Nové Dillí",
+        "lat": 20,
+        "lon": 77
+    }
+]
